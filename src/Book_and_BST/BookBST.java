@@ -34,7 +34,6 @@ public class BookBST
     {
         if (root == null) return;
         BookNode cur = root;
-        Headers.printHeader();
         while (cur != null)
         {
             System.out.print(cur.book + " ");
@@ -48,7 +47,6 @@ public class BookBST
     }
     public void inOrder()
     {
-        Headers.printHeader();
         inOrder(root);
     }
     private void inOrder(BookNode root)
@@ -135,7 +133,7 @@ public class BookBST
     {
         return countBooks(root);
     }
-    private int countBooks(BookNode root)
+    private static int countBooks(BookNode root)
     {
         if (root == null) return 0;
         return countBooks(root.left) + countBooks(root.right) + 1;

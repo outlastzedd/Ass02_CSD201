@@ -1,0 +1,32 @@
+private BookNode insert(BookNode root, Book book)
+{
+    BookNode node = new BookNode(book);
+    if (root == null)
+        root = node;
+    else
+    {
+        BookNode cur = root;
+        while (true)
+        {
+            if (node.book.bcode.compareTo(root.book.bcode) > 0)
+            {
+                if (cur.right == null)
+                {
+                    cur.right = node;
+                    break;
+                } else
+                    cur = cur.right;
+            }
+            else if (node.book.bcode.compareTo(root.book.bcode) < 0)
+            {
+                if (cur.left == null)
+                {
+                    cur.left = node;
+                    break;
+                }
+                else
+                    cur = cur.left;
+            }
+        }
+    }
+}
