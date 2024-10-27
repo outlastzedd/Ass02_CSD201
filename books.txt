@@ -1,0 +1,12 @@
+B001:The Great Gatsby:10:3:150000
+B002:To Kill a Mockingbird:7:2:120000
+B003:1984:15:8:130000
+B004:Pride and Prejudice:12:5:100000
+B005:The Catcher in the Rye:9:4:110000
+B006:Moby Dick:20:10:160000
+B007:War and Peace:6:1:180000
+B008:Crime and Punishment:8:3:140000
+B009:Brave New World:14:7:125000
+B010:The Odyssey:11:5:135000
+B011:How to be a retard:10:9:100000
+B012:Edging longer and mewing bigger with these tips:90:89:10000
